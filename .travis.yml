@@ -1,0 +1,13 @@
+language: cpp
+
+compiler: gcc
+
+before_install:
+- sudo apt-get update -qq
+- sudo apt-get install -qq libsfml-dev
+
+script:
+- ./configure.sh && make
+- make clean
+
+
