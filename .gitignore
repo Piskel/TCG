@@ -1,0 +1,8 @@
+*.o
+*.layout
+*.depend
+*.cbp
+
+gimp/
+obj/
+bin/
