@@ -50,7 +50,7 @@ void Game::gameLoop(sf::RenderWindow& app, Deck& m_deck)
     m_deck.setPosition(0.1 * screenSize.x, 0.85*screenSize.y);
 
     sf::Texture backgroundTexture;
-    backgroundTexture.loadFromFile("img/background.png");
+    backgroundTexture.loadFromFile("assets/img/background.png");
 
     sf::Text fpsText;
     fpsText.setFont(Assets::getCardsTitleFont());
@@ -76,7 +76,7 @@ void Game::gameLoop(sf::RenderWindow& app, Deck& m_deck)
         {
             // Close window : exit
             if (event.type == sf::Event::Closed)
-                app.close();
+                return;
 
             if (event.type == sf::Event::MouseButtonReleased)
             {

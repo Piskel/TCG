@@ -27,35 +27,35 @@ void Assets::load()
 {
     std::cout << "Chargement des resources...\n";
 
-    if(!m_cardsTitleFont.loadFromFile("enchantedland.otf"))
+    if(!m_cardsTitleFont.loadFromFile("assets/enchantedland.otf"))
         std::cout << "Impossible de charger la police de caractères.\n";
 
-    if(!m_cardsDescriptionFont.loadFromFile("tuerscardboard.ttf"))
+    if(!m_cardsDescriptionFont.loadFromFile("assets/tuerscardboard.ttf"))
         std::cout << "Impossible de charger la police de caractères.\n";
 
     m_cardTextures.resize(2);
 
-    if(!m_cardTextures[NORMAL].loadFromFile("img/layout.png"))
+    if(!m_cardTextures[NORMAL].loadFromFile("assets/img/layout.png"))
         std::cout << "Impossible de charger le canvas de la carte #mdr\n";
 
-    if(!m_cardTextures[MONSTER].loadFromFile("img/layout-monster.png"))
+    if(!m_cardTextures[MONSTER].loadFromFile("assets/img/layout-monster.png"))
         std::cout << "Impossible de charger le canvas de la carte #mdr\n";
 
-    if(!m_cardTextures[WIZARD].loadFromFile("img/layout-magician.png"))
+    if(!m_cardTextures[WIZARD].loadFromFile("assets/img/layout-magician.png"))
         std::cout << "Impossible de charger le canvas de la carte #mdr\n";
 
 
 
-    if(!m_cardBack.loadFromFile("img/back.png"))
+    if(!m_cardBack.loadFromFile("assets/img/back.png"))
         std::cout << "Impossible de charger le dos de la carte #mdr\n";
 
-    if(!m_shinyTexture.loadFromFile("img/shiny.png"))
+    if(!m_shinyTexture.loadFromFile("assets/img/shiny.png"))
         std::cout << "Impossible de charger le dos de la carte #mdr\n";
 
-    if(!m_shinyBackgroundTexture.loadFromFile("img/shiny-background.png"))
+    if(!m_shinyBackgroundTexture.loadFromFile("assets/img/shiny-background.png"))
         std::cout << "Impossible de charger le dos de la carte #mdr\n";
 
-    if(!m_highlightTexture.loadFromFile("img/highlight.png"))
+    if(!m_highlightTexture.loadFromFile("assets/img/highlight.png"))
         std::cout << "Impossible de charger le highlight de la carte #mdr\n";
 
     std::cout << "Hola\n";

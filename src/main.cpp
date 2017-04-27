@@ -19,27 +19,27 @@ int main()
 
     // Load a sprite to display
     sf::Texture textureBapt;
-    if (!textureBapt.loadFromFile("img/BAPT.jpg"))
+    if (!textureBapt.loadFromFile("assets/img/BAPT.jpg"))
         return EXIT_FAILURE;
 
     sf::Texture textureVampire;
-    if (!textureVampire.loadFromFile("img/vampire.png"))
+    if (!textureVampire.loadFromFile("assets/img/vampire.png"))
         return EXIT_FAILURE;
 
     sf::Texture textureZombie;
-    if (!textureZombie.loadFromFile("img/zombie.jpg"))
+    if (!textureZombie.loadFromFile("assets/img/zombie.jpg"))
         return EXIT_FAILURE;
 
     sf::Texture textureAlchimist;
-    if (!textureAlchimist.loadFromFile("img/alchimiste.png"))
+    if (!textureAlchimist.loadFromFile("assets/img/alchimiste.png"))
         return EXIT_FAILURE;
 
     sf::Texture textureBack;
-    if (!textureBack.loadFromFile("img/back.png"))
+    if (!textureBack.loadFromFile("assets/img/back.png"))
         return EXIT_FAILURE;
 
     sf::Texture texturePoulet;
-    if (!texturePoulet.loadFromFile("img/poulet.png"))
+    if (!texturePoulet.loadFromFile("assets/img/poulet.png"))
         return EXIT_FAILURE;
 
     sf::Sprite deckSprite(textureBack);

@@ -3,6 +3,9 @@
 *.depend
 *.cbp
 
+*.swp
+
 gimp/
 obj/
 bin/
+makefile
